@@ -5,6 +5,7 @@ BUILD_DIR = Build
 # All Source code files
 SRC =main.c\
 src/activity1.c\
+src/activity2.c\
 
 #Object copy to create hexfile
 OBJCOPY = avr-objcopy.exe
