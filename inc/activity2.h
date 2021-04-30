@@ -30,7 +30,7 @@
 void Init_ADC();
 
 /**
- * @brief A function to receive temperature sensor inputs from analog pin and output it to a register ADC which has 2 8 bit registers ADCL and ADCH.
+ * @brief A function to receive temperature sensor inputs from analog pin and output it to a register .
  * 
  * @param ch 
  * @return uint16_t 
