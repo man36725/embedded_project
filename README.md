@@ -12,4 +12,4 @@
 
 |Build|Cppcheck|
 |:--:|:--:|
-|[![Compile-Linux](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml)|
+|[![Compile-Linux](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml)| [![Cppcheck](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml)|
