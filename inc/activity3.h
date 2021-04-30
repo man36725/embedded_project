@@ -25,6 +25,6 @@ void TimerWave(void);
  * 
  * @param ADC_val 
  */
-void outputbyPWM(uint16_t ADC_val);
+void outputPWM(uint16_t ADC_val);
 
 #endif
