@@ -11,10 +11,13 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "activity1.h"
+#include "activity1.h"
 
 int main(void)
 {
     led_init();
+    Init_ADC(); //Initialise the ADC
+    uint16_t temp;
     // Insert code
 
 while(1)
@@ -26,6 +29,7 @@ while(1)
             {
                 _delay_ms(20);
                 SET_LED; //make 0th bit of port B as 1, makes led glow
+                temp = Read_ADC(0);
                 _delay_ms(20);
 
             }
