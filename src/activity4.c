@@ -9,8 +9,8 @@ void UARTinit(uint16_t ubrr_value){
 
     UBRR0L = ubrr_value;
     UBRR0H = (ubrr_value>>8)&(0x00ff);
-    UART_CHARACTER_SIZE; // 8 bit size of data
-    UART_ENABLED; //enable rx and tx of uart with interrupts
+    UCSR0C|=(1<<UCSZ00)|(1<<UCSZ01); // 8 bit size of data
+    UCSR0B|=(1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0); //enable rx and tx of uart with interrupts
 
 }
 
