@@ -12,7 +12,7 @@
 |-----------------------|----------------------|
 |![](activity3_0.PNG)|![](activity3_1.PNG)|
 ## Activity 4
-|Output Temperature at 29 degrees|
 |Serial OFF|Serial ON|
+|Output Temperature at 29 degrees|
 |-----------------------|----------------------|
 |![](activity4_0.PNG)|![](activity4_1.PNG)|
