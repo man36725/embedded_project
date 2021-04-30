@@ -1,6 +1,7 @@
-ACTIVITY_NAME = SeatHeatingApp
-all:
-	doxygen ./$(ACTIVITY_NAME)_Doxyfile
+DOXY_FILE = Blinky
+
+doc:
+	doxygen ./$(DOXY_FILE)
 
 clean:
-	rm -rf html
+	rm -rf html*
