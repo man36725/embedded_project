@@ -11,8 +11,8 @@
 #include <avr/io.h>
 void Init_ADC()
 {
-    ADMUX=(1<<REFS0)
-    ADCSRA=(1<<ADEN)|(7<<ADPS0)
+    ADMUX=(1<<REFS0);
+    ADCSRA=(1<<ADEN)|(7<<ADPS0);
 }
 
 /**
