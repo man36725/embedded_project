@@ -1,7 +1,7 @@
 ## Activity 1
 |When both the switches are OFF|When both the switches are ON|
 |---------------------|---------------------|
-|![](activity1_0.PNG)|![](activity1_1.PNG)|
+|![](activity1_0.PNG)|![](activty1_1.PNG.PNG)|
 
 ## Activity 2
 |ADC both inputs are OFF|ADC both inputs are ON|
