@@ -10,7 +10,6 @@
  */
 #include <avr/io.h>
 #include <util/delay.h>
-#include "activity2.h"
 #include "activity3.h"
 #include "activity4.h"
 #include <string.h>
@@ -20,9 +19,9 @@
  */
 void TimerWaveGenMode(void){
 
-    TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11); //setting timer1 for PWM
-    TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10); //8 prescalar
-    DDRB|=(1<<PB1); //Setting PB1 as output pin
+    SET_TIMER1A_FAST_PWM; //setting timer1 for PWM
+    PRESCALE_TIMER_64; //8 prescalar
+    SET_PWM_AS_OUTPUT; //Setting PB1 as output pin
 
 }
 
