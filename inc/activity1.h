@@ -41,35 +41,7 @@
  */
 #define CLEAR_LED PORTB&=~(1<<PB0)
 
-/**
- * @brief A macro to set 0th bit of PORTB as output
- *
- */
-#define SET_LED_AS_OUTPUT DDRB|=(1<<PB0)
 
-/**
- * @brief A macro to set 0th bit of PORTD as input
- *
- */
-#define SET_BUTTON_AS_INPUT DDRD&=~(1<<PD0)
-
-/**
- * @brief A macro to set 1st bit of PORTD as input
- *
- */
-#define SET_HEATER_AS_INPUT DDRD&=~(1<<PD1)
-
-/**
- * @brief A macro to set 0th bit of PORTD
- *
- */
-#define PULLUP_BUTTON PORTD|=(1<<PD0)
-
-/**
- * @brief A macro to set 1st bit of PORTD
- *
- */
-#define PULLUP_HEATER PORTD|=(1<<PD1)
 
 /**
  * @brief A function to operate the button and heater sensor
