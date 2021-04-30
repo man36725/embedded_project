@@ -17,6 +17,7 @@ int main(void)
 {
     led_init();
     Init_ADC(); //Initialise the ADC
+    TimerWaveGenMode()
     uint16_t temp;
     // Insert code
 
@@ -30,18 +31,22 @@ while(1)
                 _delay_ms(20);
                 SET_LED; //make 0th bit of port B as 1, makes led glow
                 temp = Read_ADC(0);
+                outputbyPWM(temp);
                 _delay_ms(20);
 
             }
             else
             {
+                _delay_ms(20);
+                OCR1A = 0; //make PWM output 0 if switch is off
                 CLEAR_LED; // make led off
             }
         }
         else
         {
-
                 CLEAR_LED; //make led off
+                OCR1A = 0; //make PWM output 0 if both switches are off
+                _delay_ms(20);
         }
     }
 
