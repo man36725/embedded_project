@@ -57,7 +57,7 @@ char UARTreadchar();
  * 
  * @param data 
  */
-void UARTwritecharacter(char data);
+void UARTwrite(char data);
 
 
 #endif
