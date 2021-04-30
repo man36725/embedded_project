@@ -1,4 +1,4 @@
-PROJ_NAME = main
+PROJ_NAME = HeatControl
 
 BUILD_DIR = Build
 
