@@ -1,4 +1,4 @@
-DOXYFILE_NAME = Heatcontrolsystem
+DOXYFILE_NAME = HeatSeatingApp
 all:
 	doxygen ./$(DOXYFILE_NAME)
 
