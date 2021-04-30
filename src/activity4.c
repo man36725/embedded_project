@@ -36,7 +36,7 @@ return UDR0;
  * 
  * @param data 
  */
-void UARTwritecharacter(char data){
+void UARTwrite(char data){
 
 while(UART_DATA_NOT_WRITTEN){
 
