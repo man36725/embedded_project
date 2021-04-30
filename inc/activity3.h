@@ -15,13 +15,13 @@
 
 
 /**
- * @brief A function to setup timer1 with channel A for pulse width modulation with wave generation mode of 10 bits fast PWM and prescaling of 64.
+ * @brief A function to setup timer1 with channel A for pulse width modulation with wave generation mode of PWM.
  * 
  */
 void TimerWave(void);
 
 /**
- * @brief A function which receives 10 bit of ADC input from temperature sensor and outputs as a fast PWM waveform.
+ * @brief A function which receives ADC input from temperature sensor and outputs as a PWM waveform.
  * 
  * @param ADC_val 
  */
