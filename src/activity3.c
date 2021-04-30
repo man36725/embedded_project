@@ -31,7 +31,7 @@ void TimerWave(void){
  * @param ADC_val 
  * @return char
  */
-void outputbyPWM(uint16_t ADC_val){
+void outputPWM(uint16_t ADC_val){
     int i;
     char temperature[10];
 
@@ -45,7 +45,7 @@ void outputbyPWM(uint16_t ADC_val){
         temperature[4] = ' ';
         temperature[5] = '\0';
         for(i=0;i<=5;i++){
-            UARTwritecharacter(temperature[i]);
+            UARTwrite(temperature[i]);
         }
         _delay_ms(20);
     }
@@ -59,7 +59,7 @@ void outputbyPWM(uint16_t ADC_val){
         temperature[4] = ' ';
         temperature[5] = '\0';
         for(i=0;i<5;i++){
-            UARTwritecharacter(temperature[i]);
+            UARTwrite(temperature[i]);
         }
         _delay_ms(20);
     }
@@ -73,7 +73,7 @@ void outputbyPWM(uint16_t ADC_val){
         temperature[4] = ' ';
         temperature[5] = '\0';
         for(i=0;i<=5;i++){
-            UARTwritecharacter(temperature[i]);
+            UARTwrite(temperature[i]);
         }        
         _delay_ms(20);
     }
@@ -87,7 +87,7 @@ void outputbyPWM(uint16_t ADC_val){
         temperature[4] = ' ';
         temperature[5] = '\0';
         for(i=0;i<=5;i++){
-            UARTwritecharacter(temperature[i]);
+            UARTwrite(temperature[i]);
         }        
         _delay_ms(20);
     }
@@ -100,7 +100,7 @@ void outputbyPWM(uint16_t ADC_val){
         temperature[4] = ' ';
         temperature[5] = '\0';
         for(i=0;i<=5;i++){
-            UARTwritecharacter(temperature[i]);
+            UARTwrite(temperature[i]);
         }
         _delay_ms(20);
     }
