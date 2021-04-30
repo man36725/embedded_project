@@ -12,6 +12,7 @@
 #include <util/delay.h>
 #include "activity2.h"
 #include "activity3.h"
+#include "activity4.h"
 #include <string.h>
 /**
  * @brief A function to setup timer1 with channel A for pulse width modulation with wave generation mode of 10 bits fast PWM and prescaling of 64.
