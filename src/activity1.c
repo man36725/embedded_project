@@ -13,9 +13,9 @@
 #include <avr/io.h>
 void led_init()
 {
-SET_LED_AS_OUTPUT; //set led as output port
-SET_BUTTON_AS_INPUT; //clear bit 6 of DDR B
-PULLUP_BUTTON; //Set bit 6 of Port B
-SET_HEATER_AS_INPUT; //clear bit 7 of DDR B
-PULLUP_HEATER;//Set bit 7 of DDR B
+DDRB|=(1<<PB0); //set led as output port
+DDRD&=~(1<<PD0); //clear bit 6 of DDR B
+PORTD|=(1<<PD0); //Set bit 6 of Port B
+DDRD&=~(1<<PD1); //clear bit 7 of DDR B
+PORTD|=(1<<PD1);//Set bit 7 of DDR B
 }
