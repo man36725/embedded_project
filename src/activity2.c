@@ -29,7 +29,7 @@ uint16_t Read_ADC(uint8_t ch)
 
     ADCSRA|=(1<<ADSC);
 
-    while(ADC_INTERRUPT_NOT_OCCURED);
+    while(ADC_INTERRUPT_NOT);
     SET_ADC_INTERRUPT_FLAG;
     return(ADC);
 
