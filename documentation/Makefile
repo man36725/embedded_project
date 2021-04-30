@@ -1,4 +1,4 @@
-ACTIVITY_NAME = activities
+ACTIVITY_NAME = SeatHeatingApp
 all:
 	doxygen ./$(ACTIVITY_NAME)_Doxyfile
 
