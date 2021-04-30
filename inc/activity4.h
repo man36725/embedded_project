@@ -13,7 +13,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define UBRR_VALUE 103
 /**
  * @brief A macro to check if the data is received into the buffer or not
  * 
