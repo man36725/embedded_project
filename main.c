@@ -19,7 +19,7 @@ int main(void)
 {
     led_init();
     Init_ADC();
-    TimerWaveGenMode()
+    TimerWaveGenMode();
     UARTinit(103); 
     uint16_t temp;
     // Insert code
