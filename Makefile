@@ -1,9 +1,10 @@
-PROJ_NAME = ActivityOne
+PROJ_NAME = SeatHeatApp
 
 BUILD_DIR = Build
 
 # All Source code files
-SRC = ActivityOne.c
+SRC = main.c\
+src/activity1.c\
 
 # All header file paths
 INC = -I inc
