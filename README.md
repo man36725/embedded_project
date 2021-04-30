@@ -1,14 +1,4 @@
-# embedded_project
 
-# Activity One
-
-## In Action
-
-|ON|OFF|
-|:--:|:--:|
-|![ON](simulation/Simulation_ON.PNG)|![OFF](simulation/Simulation_OFF.PNG)|
-
-#### CI and Code Quality
 
 |Build|Cppcheck|codacy|
 |:--:|:--:|:--:|
