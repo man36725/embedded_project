@@ -1,11 +1,16 @@
 #include <avr/io.h>
 #include "activity4.h"
-void UARTinit(uint16_t UBRR_VALUE){
+/**
+ * @brief A program to initialize the UART serial communication
+ * 
+ * @param ubrr_value 
+ */
+void UARTinit(uint16_t ubrr_value){
 
-    UBRR0L = UBRR_VALUE;
-    UBRR0H = (UBRR_VALUE>>8)&(0x00ff);
-    UCSR0C|=(1<<UCSZ00)|(1<<UCSZ01); // 8 bit size of data
-    UCSR0B|=(1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0); //enable rx and tx of uart with interrupts
+    UBRR0L = ubrr_value;
+    UBRR0H = (ubrr_value>>8)&(0x00ff);
+    UART_CHARACTER_SIZE; // 8 bit size of data
+    UART_ENABLED; //enable rx and tx of uart with interrupts
 
 }
 
