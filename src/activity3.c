@@ -19,9 +19,9 @@
  */
 void TimerWaveGenMode(void){
 
-    SET_TIMER1A_FAST_PWM; //setting timer1 for PWM
-    PRESCALE_TIMER_64; //8 prescalar
-    SET_PWM_AS_OUTPUT; //Setting PB1 as output pin
+    TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11); //setting timer1 for PWM
+    TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10); //8 prescalar
+    DDRB|=(1<<PB1); //Setting PB1 as output pin
 
 }
 
