@@ -13,6 +13,9 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
+#define F_CPU 16000000UL /**< Clock Frequency of MCU is 16 MHz */
+#define USART_BAUDRATE 9600 /**< Baud rate for serial communication  */
+#define UBRR_VALUE (((F_CPU / (USART_BAUDRATE * 16UL))) - 1) /**< Formula to calculate UBRR value */
 /**
  * @brief A macro to check if the data is received into the buffer or not
  * 
@@ -40,7 +43,7 @@
  * 
  * @param ubrr_value 
  */
-void UARTinit(uint16_t ubrr_value);
+void UARTinit(uint16_t UBRR_VALUE);
 
 /**
  * @brief A function to read characters coming from other UART port
