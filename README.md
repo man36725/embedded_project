@@ -10,6 +10,6 @@
 
 #### CI and Code Quality
 
-|Build|Cppcheck|Codacy|
-|:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf425986b42541fd92f2459de6359d9b)](https://www.codacy.com/gh/hemanthasapu/embedded_systems_project_256889/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hemanthasapu/embedded_systems_project_256889&amp;utm_campaign=Badge_Grade)|
+|Build|Cppcheck|
+|:--:|:--:|
+|[![Compile-Linux](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/man36725/embedded_project/actions/workflows/CodeQuality.yml)|
