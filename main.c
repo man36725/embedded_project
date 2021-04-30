@@ -34,7 +34,7 @@ while(1)
                 _delay_ms(20);
                 SET_LED; //make 0th bit of port B as 1, makes led glow
                 temp = Read_ADC(0);
-                outputbyPWM(temp);
+                outputPWM(temp);
                 _delay_ms(20);
 
             }
